@@ -93,11 +93,15 @@ Using the 'floyd_steinberg' dithering algorithm:
 n0c@box:~$ dither-this.py -i input.mp4 -d floyd_steinberg -o output.gif
 ```
 
+![Luxeria Logo Floyd Steinberg](/demo/luxeria-floyd_steinberg.gif "Luxeria Logo Floyd Steinberg")
+
 Reducing the color palette before applying the dithering algorithm (intermediate palette):
 
 ```
 n0c@box:~$ dither-this.py -i input.mp4 -pi palette/palette-5-shades-of-gray-alpha.png -o output.gif
 ```
+
+![Luxeria Logo Floyd Steinberg Intermediate Palette](/demo/luxeria-floyd_steinberg-intermediate.gif "Luxeria Logo Floyd Steinberg Intermediate Palette")
 
 Using a different color palette for the final output:
 
