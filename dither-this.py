@@ -23,7 +23,7 @@ def main():
     parser.add_argument('-p', '--final_palette', default='palette/palette-bw-alpha.png', help='Final color palette')
     parser.add_argument('-pi', '--intermediate_palette', default='', help='Intermediate color palette')
     parser.add_argument('-fps', '--framerate', type=int, default=24, help='Frame rate')
-    parser.add_argument('-s', '--size', type=int, default=256, help='Width of the output GIF, aspect ratio is preserved')
+    parser.add_argument('-s', '--size', type=int, default=-1, help='Width of the output GIF, aspect ratio is preserved')
     parser.add_argument('-b', '--brightness', type=float, default=0, help='Brightness, -1 to 1, with 0 being the default value')
     parser.add_argument('-c', '--contrast', type=float, default=1, help='Contrast, 0 to 2, with 1 being the default value')
     parser.add_argument('-d', '--dither', default='bayer', help='Dither algorithm: bayer, heckbert, floyd_steinberg, sierra2, sierra2_4a')

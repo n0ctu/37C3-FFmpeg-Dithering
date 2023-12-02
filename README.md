@@ -50,18 +50,41 @@ options:
                         Output filename
 ```
 
-## Examples
+## Examples (Image to Image)
 
-Image to image:
+Default values with resizing to 256px width:
 
 ```
-n0c@box:~$ dither-this.py -i photo.jpg -o dither-photo.jpeg
+
 ```
+n0c@box:~$ dither-this.py -i lenna.jpg -s 256 -o lenna-default.jpg
+```
+
+![Lenna Default](/demo/lenna-default.jpg "Lenna Default")
+
+Alternative dithering algorithm:
+
+```
+n0c@box:~$ dither-this.py -i lenna.jpg -s 256 -d floyd_steinberg -o lenna-floyd_steinberg.jpg
+```
+
+![Lenna Floyd Steinberg](/demo/lenna-floyd_steinberg.jpg "Lenna Floyd Steinberg")
+
+Alternative dithering algorithm with brightness/contrast fix:
+
+```
+n0c@box:~$ dither-this.py -i lenna.jpg -s 256 -d floyd_steinberg -b -0.3 -c 1.3 -o lenna-floyd_steinberg-fix.jpg
+```
+
+![Lenna Floyd Steinberg Fix](/demo/lenna-floyd_steinberg-fix.jpg "Lenna Floyd Steinberg Fix")
+
+
+## Examples (Video / GIF)
 
 Video to GIF:
 
 ```
-n0c@box:~$ dither-this.py -i input.mp4 -o dither-video.gif
+n0c@box:~$ dither-this.py -i input.mp4 -s 256 -o dither-video.gif
 ```
 
 Using the 'floyd_steinberg' dithering algorithm:
