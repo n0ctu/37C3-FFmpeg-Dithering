@@ -55,8 +55,6 @@ options:
 Default values with resizing to 256px width:
 
 ```
-
-```
 n0c@box:~$ dither-this.py -i lenna.jpg -s 256 -o lenna-default.jpg
 ```
 
