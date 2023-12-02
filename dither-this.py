@@ -18,7 +18,7 @@ def is_ffmpeg_installed():
         return False
 
 def main():
-    parser = argparse.ArgumentParser(description="Convert a video to a dithered GIF in the stlye of '37C3: Unlocked' using FFmpeg.")
+    parser = argparse.ArgumentParser(description="Convert a video/image to a dithered version in the stlye of '37C3: Unlocked' using FFmpeg.")
     parser.add_argument('-i', '--input', default='input.mp4', help='Input file')
     parser.add_argument('-p', '--final_palette', default='palette/palette-bw-alpha.png', help='Final color palette')
     parser.add_argument('-pi', '--intermediate_palette', default='', help='Intermediate color palette')

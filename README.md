@@ -13,7 +13,7 @@ https://events.ccc.de/2023/11/27/37c3-hat-die-haare-schoen/
 
 Simply call the 'dither-this.py' file from the command line or run it without any arguments. When running the script without any arguments, it will look for a file called 'input.mp4' and process it with the default values.
 
-![Demo](/demo/demo.gif "Demo").
+![Demo](/demo/demo.gif "Demo")
 
 By passing the '-h' or '--help' flag you can list all available options.
 
@@ -23,7 +23,7 @@ n0c@box:~$ dither-this.py --help
 usage: dither-this.py [-h] [-i INPUT] [-p FINAL_PALETTE] [-pi INTERMEDIATE_PALETTE] [-fps FRAMERATE] [-s SIZE] [-b BRIGHTNESS] [-c CONTRAST] [-d DITHER] [-bs BAYER_SCALE]
                       [-loop LOOP] [-o OUTPUT]
 
-Convert a video to a dithered GIF in the stlye of '37C3: Unlocked' using FFmpeg.
+Convert a video/image to a dithered version in the stlye of '37C3: Unlocked' using FFmpeg.
 
 options:
   -h, --help            show this help message and exit
