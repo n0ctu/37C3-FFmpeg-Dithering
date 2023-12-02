@@ -6,6 +6,7 @@ https://events.ccc.de/2023/11/27/37c3-hat-die-haare-schoen/
 
 ## Prerequisites
 
+- Clone this repository (you'll need the 'palette' folder and the 'dither-this.py' file)
 - Python 3 installed and added to PATH
 - FFmpeg installed and added to PATH
 
