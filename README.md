@@ -85,6 +85,8 @@ Video to GIF:
 n0c@box:~$ dither-this.py -i input.mp4 -s 256 -o dither-video.gif
 ```
 
+![Luxeria Logo Default](/demo/luxeria-default.gif "Luxeria Logo Default")
+
 Using the 'floyd_steinberg' dithering algorithm:
 
 ```
